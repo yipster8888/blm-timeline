@@ -7,7 +7,8 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <h1>BLM Timeline</h1>
+      <h1>Black Lives Matter Progress Timeline</h1>
+      <hr />
       <Timeline />
     </div>
   );

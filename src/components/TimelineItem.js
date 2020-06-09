@@ -11,17 +11,14 @@ function TimelineItem(props) {
           {props.data.category.tag}
         </span>
         <time>{props.data.date}</time>
-        <p>{props.data.text}</p>
+        <p className="timeline-item-title">{props.data.title}</p>
+        <p className="timeline-item-p">"{props.data.text}"</p>
         {props.data.image && (
           <img src={props.data.image.source} alt={props.data.image.alt} />
         )}
-        {props.data.link && (
-          <a
-            href={props.data.link.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {props.data.link.text}
+        {props.data.url && (
+          <a href={props.data.url} target="_blank" rel="noopener noreferrer">
+            {"read more"}
           </a>
         )}
         <span className="circle"></span>
