@@ -1,20 +1,24 @@
 import React from "react";
 
+import CityData from "../CityData";
+
 function TimelineItem(props) {
+  //Determine the colour for the tag
+  let tagColour;
+  const city = CityData.find((element) => element.name === props.data.tag);
+  city ? (tagColour = city.colour) : (tagColour = "grey");
+
   return (
     <div className="timeline-item">
       <div className="timeline-item-content">
-        <span
-          className="tag"
-          style={{ background: props.data.category.colour }}
-        >
-          {props.data.category.tag}
+        <span className="tag" style={{ background: tagColour }}>
+          {props.data.tag}
         </span>
         <time>{props.data.date}</time>
         <p className="timeline-item-title">{props.data.title}</p>
         <p className="timeline-item-p">"{props.data.text}"</p>
-        {props.data.image && (
-          <img src={props.data.image.source} alt={props.data.image.alt} />
+        {props.data.source && (
+          <img src={props.data.source} alt={props.data.title} />
         )}
         {props.data.url && (
           <a href={props.data.url} target="_blank" rel="noopener noreferrer">

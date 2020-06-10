@@ -7,7 +7,8 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <h1>Black Lives Matter Progress Timeline</h1>
+      <h1>Black Lives Matter Timeline</h1>
+      <p className="tagline">~ Keep fighting for justice. It's working. ~</p>
       <hr />
       <Timeline />
     </div>

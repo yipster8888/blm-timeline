@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: linear-gradient(135deg, #ededed 0%, #cfcfcf 100%);
+  background-color: #333;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +20,16 @@ body {
 
 h1 {
   text-align: center;
+  color: #fff;
+  font-size: 4.5vh;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-size: 1.5vh;
 }
 
 .timeline-container {
@@ -116,13 +126,13 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   margin: 0px 0 0px 0;
-  max-width: 500px;
+  max-width: 100%;
   text-align: left;
   letter-spacing: 0.01px;
 }
 
 .timeline-item-title {
-  font-size: 28px;
+  font-size: 3.5vh;
   font-weight: bold;
   margin: 15px 0 15px 0;
   color: black;
@@ -175,6 +185,19 @@ Adding media queries to make this website responsive
     align-items: center;
   }
 
+  .timeline-item-title {
+    font-size: 16px;
+  }
+
+  .timeline-item-p {
+    font-size: 12px;
+
+    /*This doesn't really do anything yet, I was trying to limit the text at smaller screen sizes*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 75ch;
+  }
+
   .timeline-item-content .tag {
     width: calc(100% - 10px);
   }
@@ -185,6 +208,7 @@ Adding media queries to make this website responsive
 
   .timeline-item-content a {
     text-decoration: underline;
+    font-size: 10px;
   }
 
   .timeline-item-content a::after {
