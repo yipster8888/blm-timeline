@@ -1,6 +1,7 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
+  "description": "A timeline to document the progress and achievements of the Black Lives Matter Movement.",
   "icons": [
     {
       "src": "blm-fist.png",
