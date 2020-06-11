@@ -11,6 +11,17 @@ class Timeline extends Component {
       timelineData: [],
       targetCity: "",
     };
+
+    //Binding event handlers here
+    this.handleChangeTargetCity = this.handleChangeTargetCity.bind(this);
+  }
+
+  //Changes state to reflect a change to targetCity
+  handleChangeTargetCity(event) {
+    const { value } = event.target;
+    this.setState({
+      targetCity: value,
+    });
   }
 
   //Once the component mounts, we can make the data API call
@@ -24,12 +35,20 @@ class Timeline extends Component {
   }
 
   render() {
+    console.log(this.state.targetCity);
+
     if (this.state.timelineData != null && this.state.timelineData.length > 0) {
       return (
-        <div className="timeline-container">
-          {this.state.timelineData.map((data, index) => (
-            <TimelineItem data={data} key={index} />
-          ))}
+        <div>
+          <div className="timeline-container">
+            {this.state.timelineData.map((data, index) => (
+              <TimelineItem data={data} key={index} />
+            ))}
+          </div>
+          <CityFilter
+            data={this.state}
+            handleChangeTargetCity={this.handleChangeTargetCity}
+          />
         </div>
       );
     }
