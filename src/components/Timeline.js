@@ -2,12 +2,14 @@ import React, { Component } from "react";
 
 import TimelineItem from "./TimelineItem";
 import Data from "../Data.js";
+import CityFilter from "./CityFilter";
 
 class Timeline extends Component {
   constructor(props) {
     super(props);
     this.state = {
       timelineData: [],
+      targetCity: "",
     };
   }
 
