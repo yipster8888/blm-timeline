@@ -1,3 +1,5 @@
+import Axios from "axios";
+
 const Data = [
   {
     title: "All 4 Minneapolis police officers fired",
@@ -298,4 +300,5 @@ const Data = [
       "https://i.cbc.ca/1.5602016.1591491023!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_940/calgary-black-lives-matter-vigil.jpg",
   },
 ];
+
 export default Data;
