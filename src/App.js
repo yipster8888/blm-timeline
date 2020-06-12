@@ -1,6 +1,8 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Timeline from "./components/Timeline";
+import PageNotFound from "./components/PageNotFound";
 
 import "./App.css";
 import Header from "./components/Header";
@@ -9,9 +11,14 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="app">
-      <Header />
-      <Timeline />
-      <Footer />
+      <Router>
+        <Header />
+        <div className="content">
+          <Route exact path="/" component={Timeline}/>
+          <Route path="/" component={PageNotFound} />
+        </div>
+        <Footer />
+      </Router>
     </div>
   );
 }
