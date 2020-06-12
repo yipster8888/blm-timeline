@@ -238,6 +238,7 @@ Adding media queries to make this website responsive
 @media only screen and (max-width: 767px) {
   .header h1 {
     font-size: 42px;
+    text-align: center;
   }
 
   .timeline-item-content,
@@ -278,5 +279,50 @@ Adding media queries to make this website responsive
 
   .footer {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .timeline-container::after {
+    left: 15px;
+  }
+
+  .timeline-item {
+    width: 98%;
+    align-self: flex-start;
+    margin-left: 35px;
+    padding-right: 35px;
+    padding-left: 0px;
+  }
+
+  .timeline-item:nth-child(odd) {
+    align-self: flex-start;
+    margin-left: calc(15px - 3px);
+    padding-left: 35px;
+    padding-right: 0px;
+  }
+
+  /* This is the little arrow that comes out of the card */
+  .timeline-item-content::after {
+    content: " ";
+    background-color: #fff;
+    transform: rotate(45deg);
+    left: -7.5px;
+    top: calc(50% - 7.5px);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    box-shadow: -1px 0px 0px -1px rgba(0, 0, 0, 0.2);
+  }
+
+  .timeline-item:nth-child(odd) .timeline-item-content::after {
+    right: auto;
+    left: -7.5px;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .timeline-item-content .circle,
+  .timeline-item:nth-child(odd) .timeline-item-content .circle {
+    left: -40px;
   }
 }
