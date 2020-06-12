@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Timeline from "./components/Timeline";
 import PageNotFound from "./components/PageNotFound";
@@ -14,8 +14,10 @@ function App() {
       <Router>
         <Header />
         <div className="content">
-          <Route exact path="/" component={Timeline}/>
-          <Route path="/" component={PageNotFound} />
+          <Switch>
+            <Route exact path="/" component={Timeline}/>
+            <Route component={PageNotFound} />
+          </Switch>
         </div>
         <Footer />
       </Router>
