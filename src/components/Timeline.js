@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import TimelineItem from "./TimelineItem";
 import Data from "../Data.js";
+import Api from "../api/Timeline";
 
 class Timeline extends Component {
   constructor(props) {
@@ -25,11 +26,10 @@ class Timeline extends Component {
 
   //Once the component mounts, we can make the data API call
   componentDidMount() {
-    const retrievedData = Data;
-
-    //We call setState() so that the React will know to re-render this component
-    this.setState({
-      timelineData: retrievedData,
+    Api.getPosts().then(res => {
+      this.setState({
+        timelineData: [...(res.data || []), ...Data]
+      });
     });
   }
 
