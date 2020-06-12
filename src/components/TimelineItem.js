@@ -4,17 +4,18 @@ import CityData from "../CityData";
 
 function TimelineItem(props) {
   //Determine the colour for the tag
+  const date = new Date(props.data.date);
   let tagColour;
-  const city = CityData.find((element) => element.name === props.data.location);
+  const city = CityData.find((element) => element.name === props.data.cityname);
   city ? (tagColour = city.colour) : (tagColour = "grey");
 
   return (
     <div className="timeline-item">
       <div className="timeline-item-content">
         <span className="tag" style={{ background: tagColour }}>
-          {props.data.location}
+          {props.data.cityname}
         </span>
-        <time>{props.data.date}</time>
+        <time>{date.getMonth() + '/' + date.getDate() + '/' + date.getFullYear()}</time>
         <p className="timeline-item-title">{props.data.title}</p>
         <p className="timeline-item-p">"{props.data.text}"</p>
         {props.data.imageURL && (
