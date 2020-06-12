@@ -1,0 +1,60 @@
+.admin-container {
+    margin: auto;
+    width: 100%;
+    max-width: 60vw;
+    min-width: 300px;
+}
+
+.admin-title {
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.admin-section-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.admin-section {
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+.admin-section-form {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-section-form input {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.admin-section-form button {
+    cursor: pointer;
+    margin: 10px auto 0px auto;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 15px;
+    background-color: white;
+    transition: all ease 100ms;
+    border: 2px solid rgb(235, 235, 235);
+    margin: 15px 0px;
+}
+
+.admin-section-form button:hover {
+    opacity: 0.8;
+    background-color: whitesmoke;
+}

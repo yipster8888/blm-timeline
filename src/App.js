@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Timeline from "./components/Timeline";
+import AdminPage from "./components/admin/AdminPage";
 import PageNotFound from "./components/PageNotFound";
 
 import "./App.css";
@@ -15,7 +16,8 @@ function App() {
         <Header />
         <div className="content">
           <Switch>
-            <Route exact path="/" component={Timeline}/>
+            <Route exact path="/" component={Timeline} />
+            <Route exact path="/admin" component={AdminPage} />
             <Route component={PageNotFound} />
           </Switch>
         </div>
