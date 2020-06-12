@@ -5,9 +5,8 @@ import CityData from "../CityData";
 function TimelineItem(props) {
   //Determine the colour for the tag
   const date = new Date(props.data.date);
-  let tagColour;
+  let tagColour = props.data.colour;
   const city = CityData.find((element) => element.name === props.data.cityname);
-  city ? (tagColour = city.colour) : (tagColour = "grey");
 
   return (
     <div className="timeline-item">
