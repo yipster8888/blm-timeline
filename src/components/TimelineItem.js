@@ -15,7 +15,13 @@ function TimelineItem(props) {
         <span className="tag" style={{ background: tagColour }}>
           {props.data.cityname}
         </span>
-        <time>{date.getMonth() + '/' + date.getDate() + '/' + date.getFullYear()}</time>
+        <time>
+          {getMonthName(date.getMonth()) +
+            " " +
+            date.getDate() +
+            ", " +
+            date.getFullYear()}
+        </time>
         <p className="timeline-item-title">{props.data.title}</p>
         <p className="timeline-item-p">"{props.data.text}"</p>
         {props.data.imageURL && (
@@ -34,6 +40,25 @@ function TimelineItem(props) {
       </div>
     </div>
   );
+}
+
+// Shortened months included to avoid date/location tag being squished
+function getMonthName(index) {
+  const monthNames = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sept",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+  return monthNames[index];
 }
 
 export default TimelineItem;
