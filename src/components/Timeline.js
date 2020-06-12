@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import TimelineItem from "./TimelineItem";
 import Data from "../Data.js";
-import CityFilter from "./CityFilter";
 
 class Timeline extends Component {
   constructor(props) {
@@ -39,16 +38,12 @@ class Timeline extends Component {
 
     if (this.state.timelineData != null && this.state.timelineData.length > 0) {
       return (
-        <div>
+        <div className="timeline">
           <div className="timeline-container">
             {this.state.timelineData.map((data, index) => (
               <TimelineItem data={data} key={index} />
             ))}
           </div>
-          <CityFilter
-            data={this.state}
-            handleChangeTargetCity={this.handleChangeTargetCity}
-          />
         </div>
       );
     }

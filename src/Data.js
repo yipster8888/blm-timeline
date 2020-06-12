@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import Axios from "axios";
 
 const Data = [
