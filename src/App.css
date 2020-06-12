@@ -236,6 +236,10 @@ body {
 Adding media queries to make this website responsive
 */
 @media only screen and (max-width: 767px) {
+  .app {
+    grid-template-rows: 160px auto 50px;
+  }
+
   .header h1 {
     font-size: 42px;
     text-align: center;
@@ -290,14 +294,15 @@ Adding media queries to make this website responsive
   .timeline-item {
     width: 98%;
     align-self: flex-start;
-    margin-left: 35px;
-    padding-right: 35px;
-    padding-left: 0px;
+    margin-left: 12px;
+    padding-left: 35px;
+    padding-right: 0px;
+    justify-content: flex-start;
   }
 
   .timeline-item:nth-child(odd) {
     align-self: flex-start;
-    margin-left: calc(15px - 3px);
+    margin-left: 12px;
     padding-left: 35px;
     padding-right: 0px;
   }
