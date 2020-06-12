@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../css/TimelineItem.css";
 import CityData from "../CityData";
 
 function TimelineItem(props) {

@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/CityFilter.css";
 
 function CityFilter(props) {
   let options = [];

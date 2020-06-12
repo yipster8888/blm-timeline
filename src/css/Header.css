@@ -1,0 +1,33 @@
+/* Header styling */
+.header {
+  align-items: center;
+  text-align: center;
+  grid-row: 1;
+}
+
+.header h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 42px;
+  margin: 10px 0 10px 0;
+  padding: 0 0 0 0;
+}
+
+.tagline {
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-size: 12px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+/*
+Adding media queries to make this website responsive
+*/
+@media only screen and (max-width: 767px) {
+  .header h1 {
+    font-size: 42px;
+    text-align: center;
+  }
+}

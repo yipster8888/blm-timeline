@@ -5,7 +5,7 @@ import Timeline from "./components/Timeline";
 import AdminPage from "./components/admin/AdminPage";
 import PageNotFound from "./components/PageNotFound";
 
-import "./App.css";
+import "./css/App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
