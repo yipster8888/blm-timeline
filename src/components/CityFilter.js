@@ -1,16 +1,22 @@
 import React from "react";
 
+import Api from "../api/City";
+
 function CityFilter(props) {
   let options = [];
-  if (props.data.timelineData != null) {
-    options = props.data.timelineData.map((element, index) => {
-      return (
-        <option key={index} value={element.location}>
-          {element.location}
-        </option>
-      );
-    });
-  }
+
+  //Not sure if this works yet
+  Api.getCities().then((res) => {
+    if (res.data.cities != null) {
+      options = res.data.cities.map((element, index) => {
+        return (
+          <option key={index} value={element.location}>
+            {element.location}
+          </option>
+        );
+      });
+    }
+  });
 
   return (
     <div className="city-filter">
