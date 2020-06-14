@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import TimelineItem from "./TimelineItem";
 import Data from "../Data";
 import Api from "../api/Timeline";
+import "../css/Timeline.css";
 
 class Timeline extends Component {
   constructor(props) {

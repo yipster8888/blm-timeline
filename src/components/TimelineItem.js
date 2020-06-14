@@ -1,13 +1,12 @@
 import React from "react";
-
+import "../css/TimelineItem.css";
 import CityData from "../CityData";
 
 function TimelineItem(props) {
   //Determine the colour for the tag
   const date = new Date(props.data.date);
-  let tagColour;
+  let tagColour = props.data.colour;
   const city = CityData.find((element) => element.name === props.data.cityname);
-  city ? (tagColour = city.colour) : (tagColour = "grey");
 
   return (
     <div className="timeline-item">
@@ -15,7 +14,13 @@ function TimelineItem(props) {
         <span className="tag" style={{ background: tagColour }}>
           {props.data.cityname}
         </span>
-        <time>{date.getMonth() + '/' + date.getDate() + '/' + date.getFullYear()}</time>
+        <time>
+          {getMonthName(date.getMonth()) +
+            " " +
+            date.getDate() +
+            ", " +
+            date.getFullYear()}
+        </time>
         <p className="timeline-item-title">{props.data.title}</p>
         <p className="timeline-item-p">"{props.data.text}"</p>
         {props.data.imageURL && (
@@ -34,6 +39,25 @@ function TimelineItem(props) {
       </div>
     </div>
   );
+}
+
+// Shortened months included to avoid date/location tag being squished
+function getMonthName(index) {
+  const monthNames = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sept",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+  return monthNames[index];
 }
 
 export default TimelineItem;

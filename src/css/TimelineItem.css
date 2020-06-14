@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/App.css
 * {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -83,6 +84,8 @@ body {
   height: 100%;
 }
 
+=======
+>>>>>>> 2350ac304e144f9bb060366ea25dbf73d0476fc0:src/css/TimelineItem.css
 .timeline-item {
   display: flex;
   justify-content: flex-end;
@@ -99,6 +102,8 @@ body {
 }
 
 .timeline-item-content {
+  /* MIN-WIDTH added to allow more room for date and tag when title is short */
+  min-width: 60%;
   max-width: 95%;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -135,6 +140,7 @@ body {
 }
 
 .timeline-item-content .tag {
+  max-width: 50%;
   color: #fff;
   font-size: 12px;
   font-weight: bold;
@@ -145,6 +151,9 @@ body {
   top: 5px;
   left: 5px;
   border-radius: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .timeline-item:nth-child(odd) .timeline-item-content .tag {
@@ -155,6 +164,8 @@ body {
 .timeline-item-content time {
   color: #333;
   font-size: 16px;
+  position: absolute;
+  top: 7px;
 }
 
 .timeline-item-p {
@@ -209,6 +220,7 @@ body {
   border-radius: 10px;
 }
 
+<<<<<<< HEAD:src/App.css
 .city-filter {
   align-items: center;
   text-align: center;
@@ -239,10 +251,13 @@ body {
   font-style: italic;
 }
 
+=======
+>>>>>>> 2350ac304e144f9bb060366ea25dbf73d0476fc0:src/css/TimelineItem.css
 /*
 Adding media queries to make this website responsive
 */
 @media only screen and (max-width: 767px) {
+<<<<<<< HEAD:src/App.css
   .app {
     grid-template-rows: 160px auto 110px;
   }
@@ -252,6 +267,8 @@ Adding media queries to make this website responsive
     text-align: center;
   }
 
+=======
+>>>>>>> 2350ac304e144f9bb060366ea25dbf73d0476fc0:src/css/TimelineItem.css
   .timeline-item-content,
   .timeline-item:nth-child(odd) .timeline-item-content {
     padding: 15px 10px;
@@ -260,6 +277,7 @@ Adding media queries to make this website responsive
   }
 
   .timeline-item-title {
+    margin-top: 45px;
     font-size: 16px;
   }
 
@@ -272,10 +290,15 @@ Adding media queries to make this website responsive
   }
 
   .timeline-item-content .tag {
+    max-width: 100%;
     width: calc(100% - 10px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .timeline-item-content time {
+    padding: 10px;
     margin-top: 20px;
   }
 
@@ -287,18 +310,17 @@ Adding media queries to make this website responsive
   .timeline-item-content a::after {
     display: none;
   }
+<<<<<<< HEAD:src/App.css
 
   .footer {
     font-size: 12px;
     height: 130px;
   }
+=======
+>>>>>>> 2350ac304e144f9bb060366ea25dbf73d0476fc0:src/css/TimelineItem.css
 }
 
 @media only screen and (max-width: 540px) {
-  .timeline-container::after {
-    left: 15px;
-  }
-
   .timeline-item {
     width: 98%;
     align-self: flex-start;
