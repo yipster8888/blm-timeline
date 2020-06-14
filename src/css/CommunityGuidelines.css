@@ -1,0 +1,18 @@
+.community-guidelines {
+  margin: 25px;
+  color: #fff;
+}
+
+.guidelines {
+  font-size: 16px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.disclaimer {
+  text-align: justify;
+  font-size: 12px;
+  font-style: italic;
+}

@@ -8,6 +8,7 @@ import PageNotFound from "./components/PageNotFound";
 import "./css/App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import CommunityGuidelines from "./components/CommunityGuidelines";
 
 function App() {
   return (
@@ -18,6 +19,11 @@ function App() {
           <Switch>
             <Route exact path="/" component={Timeline} />
             <Route exact path="/admin" component={AdminPage} />
+            <Route
+              exact
+              path="/community-guidelines"
+              component={CommunityGuidelines}
+            />
             <Route component={PageNotFound} />
           </Switch>
         </div>
