@@ -9,7 +9,11 @@ export default {
     });
   },
 
-  insertPost: (data) => {
-    return axios.post(`${API_URL}/timeline`, data);
+  insertPost: (data, password) => {
+    return axios.post(`${API_URL}/timeline`, data, {
+      headers: {
+        authorization: 'Bearer ' + password,
+      },
+    });
   },
 };

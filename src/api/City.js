@@ -13,7 +13,11 @@ export default {
     });
   },
 
-  insertCity: (data) => {
-    return axios.post(`${API_URL}/city`, data);
+  insertCity: (data, password) => {
+    return axios.post(`${API_URL}/city`, data, {
+      headers: {
+        authorization: 'Bearer ' + password,
+      },
+    });
   },
 };
