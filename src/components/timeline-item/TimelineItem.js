@@ -4,13 +4,12 @@ import "./TimelineItem.css";
 function TimelineItem(props) {
   //Determine the colour for the tag
   const date = new Date(props.data.date);
-  let tagColour = props.data.colour;
 
   return (
     <div className="timeline-item">
       <div className="timeline-item-content">
-        <span className="tag" style={{ background: tagColour }}>
-          {props.data.cityname}
+        <span className="tag" style={{ background: props.data.colour }}>
+          {props.data.cityName}
         </span>
         <time>
           {getMonthName(date.getMonth()) +
