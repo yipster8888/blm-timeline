@@ -1,12 +1,10 @@
 import React from "react";
-import "../css/TimelineItem.css";
-import CityData from "../CityData";
+import "./TimelineItem.css";
 
 function TimelineItem(props) {
   //Determine the colour for the tag
   const date = new Date(props.data.date);
   let tagColour = props.data.colour;
-  const city = CityData.find((element) => element.name === props.data.cityname);
 
   return (
     <div className="timeline-item">

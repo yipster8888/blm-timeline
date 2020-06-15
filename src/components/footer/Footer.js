@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Footer.css";
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -8,7 +8,7 @@ function Footer() {
       <p className="footer-copyright">
         Copyright &copy; Tyler Yip, Radu Schirliu, &amp; Alexa Calkhoven{" "}
         {new Date().getFullYear()}. All rights reserved.
-      </p>
+    </p>
       <p>
         <a className="link" href="/">
           Timeline

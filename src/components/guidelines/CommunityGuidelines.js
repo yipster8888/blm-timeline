@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../css/CommunityGuidelines.css";
+import "./CommunityGuidelines.css";
 
 function CommunityGuidelines() {
   return (

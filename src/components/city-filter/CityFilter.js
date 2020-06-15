@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/CityFilter.css";
 
-import Api from "../api/City";
+import Api from "../../api/City";
 
 function CityFilter(props) {
   let options = [];

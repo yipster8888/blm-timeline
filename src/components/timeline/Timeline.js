@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 
-import TimelineItem from "./TimelineItem";
-import Data from "../Data";
-import Api from "../api/Timeline";
-import "../css/Timeline.css";
+import TimelineItem from "../timeline-item/TimelineItem";
+import Api from "../../api/Timeline";
+import "./Timeline.css";
 
 class Timeline extends Component {
   constructor(props) {
@@ -28,8 +27,9 @@ class Timeline extends Component {
   //Once the component mounts, we can make the data API call
   componentDidMount() {
     Api.getPosts().then((res) => {
+      console.log(res);
       this.setState({
-        timelineData: [...(res.data || []), ...Data],
+        timelineData: res.data || [],
       });
     });
   }

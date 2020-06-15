@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Timeline from "./components/Timeline";
-import AdminPage from "./components/admin/AdminPage";
-import PageNotFound from "./components/PageNotFound";
+import Timeline from "../timeline/Timeline";
+import AdminPage from "../admin/AdminPage";
+import PageNotFound from "../page-not-found/PageNotFound";
 
-import "./css/App.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import CommunityGuidelines from "./components/CommunityGuidelines";
+import "./App.css";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
+import CommunityGuidelines from "../guidelines/CommunityGuidelines";
 
 function App() {
   return (
