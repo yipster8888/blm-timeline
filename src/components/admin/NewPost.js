@@ -15,7 +15,7 @@ const NewPost = () => {
       {
         title: values.title,
         text: values.text,
-        cityname: values.cityName,
+        cityName: values.cityName,
         imageURL: values.imageURL,
         newsURL: values.newsURL,
         date: new Date(values.date).toISOString(),
