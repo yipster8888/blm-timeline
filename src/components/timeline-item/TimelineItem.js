@@ -8,9 +8,11 @@ function TimelineItem(props) {
   return (
     <div className="timeline-item">
       <div className="timeline-item-content">
-        <span className="tag" style={{ background: props.data.colour }}>
-          {props.data.cityName}
-        </span>
+        {props.data.cityName && (
+          <span className="tag" style={{ background: props.data.colour }}>
+            {props.data.cityName}
+          </span>
+        )}
         <time>
           {getMonthName(date.getMonth()) +
             " " +
