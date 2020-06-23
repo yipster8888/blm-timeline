@@ -9,9 +9,12 @@ function Footer() {
         Copyright &copy;{' '}
         {new Date().getFullYear()}. All rights reserved.
       </p>
-      <Link to="/community-guidelines" className="footer-link">
-        Community Guidelines
-      </Link>
+      <div className="footer-links">
+        <Link to="/community-guidelines" className="footer-link">
+          Community Guidelines
+        </Link>
+        <a href="https://forms.gle/c2JcBGzrpKdzuLct9" className="footer-link">Feedback</a>
+      </div>
     </div>
   );
 }
