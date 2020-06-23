@@ -11,7 +11,7 @@
 }
 
 .timeline-container::after {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.75);
   content: "";
   position: absolute;
   left: calc(50% - 2px);
@@ -19,14 +19,14 @@
   height: 100%;
 }
 
-.vertical-center {
-  padding: 200px;
+.loader-container {
+  padding-top: 200px;
 }
 
 .loader {
   margin: 0 auto;
-  border: 16px solid rgb(210 210 210);
-  border-top: 16px solid red;
+  border: 16px solid rgb(190, 190, 190, 0.8);
+  border-top: 16px solid rgb(54, 54, 54, 0.8);
   border-radius: 50%;
   width: 120px;
   height: 120px;

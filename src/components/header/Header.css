@@ -1,33 +1,42 @@
 /* Header styling */
 .header {
+  height: fit-content;
   align-items: center;
   text-align: center;
-  grid-row: 1;
+  background-color: rgb(54, 54, 54);
+  box-shadow: 0px 2px 30px 10px rgba(0, 0, 0, 0.15);
+  padding: 10px 0px 10px 0px;
 }
 
-.header h1 {
+.header-title {
+  cursor: pointer;
   text-align: center;
+  text-decoration: none;
   color: #fff;
   font-size: 42px;
-  margin: 10px 0 10px 0;
-  padding: 0 0 0 0;
+  line-height: 42px;
+  padding: 0;
 }
 
-.tagline {
+.header-title:hover {
+  opacity: 0.8;
+}
+
+.header-tagline {
   text-align: center;
   color: #fff;
   font-style: italic;
   font-size: 12px;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  margin: 5px 0px 0px 0px;
+  padding: 0;
 }
 
 /*
 Adding media queries to make this website responsive
 */
 @media only screen and (max-width: 767px) {
-  .header h1 {
-    font-size: 42px;
+  .header-title {
+    font-size: 36px;
     text-align: center;
   }
 }

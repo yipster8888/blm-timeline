@@ -1,12 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   return (
     <div className="header">
-      <h1>Black Lives Matter Timeline</h1>
-      <p className="tagline">~ Keep fighting for justice. It's working. ~</p>
-      <hr />
+      <Link to="/" className="header-title">
+        Black Lives Matter Timeline
+      </Link>
+      <p className="header-tagline">
+        ~ Keep fighting for justice. It's working. ~
+      </p>
     </div>
   );
 }

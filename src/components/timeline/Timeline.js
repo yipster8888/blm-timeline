@@ -10,6 +10,7 @@ class Timeline extends Component {
     this.state = {
       timelineData: [],
       targetCity: "",
+      loading: true,
     };
 
     //Binding event handlers here
@@ -26,16 +27,30 @@ class Timeline extends Component {
 
   //Once the component mounts, we can make the data API call
   componentDidMount() {
-    Api.getPosts().then((res) => {
-      console.log(res);
-      this.setState({
-        timelineData: res.data || [],
+    Api.getPosts()
+      .then((res) => {
+        console.log(res);
+        this.setState({
+          timelineData: res.data || [],
+        });
+      })
+      .finally(() => {
+        this.setState({
+          loading: false,
+        });
       });
-    });
   }
 
   render() {
     console.log(this.state.targetCity);
+
+    if (this.state.loading) {
+      return (
+        <div className="loader-container">
+          <div className="loader"></div>
+        </div>
+      );
+    }
 
     if (this.state.timelineData != null && this.state.timelineData.length > 0) {
       return (
@@ -48,12 +63,6 @@ class Timeline extends Component {
         </div>
       );
     }
-
-    return (
-      <div className="vertical-center">
-        <div className="loader"></div>
-      </div>
-    );
   }
 }
 

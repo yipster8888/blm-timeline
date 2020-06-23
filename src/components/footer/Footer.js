@@ -1,23 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 function Footer() {
   return (
     <div className="footer">
-      <hr />
       <p className="footer-copyright">
-        Copyright &copy; Tyler Yip, Radu Schirliu, &amp; Alexa Calkhoven{" "}
+        Copyright &copy;{' '}
         {new Date().getFullYear()}. All rights reserved.
-    </p>
-      <p>
-        <a className="link" href="/">
-          Timeline
-        </a>
-        {" • "}
-        <a className="link" href="/community-guidelines">
-          Community Guidelines
-        </a>
       </p>
+      <Link to="/community-guidelines" className="footer-link">
+        Community Guidelines
+      </Link>
     </div>
   );
 }
