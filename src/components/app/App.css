@@ -41,12 +41,3 @@ body {
 .content {
   overflow-y: auto;
 }
-
-/*
-Adding media queries to make this website responsive
-*/
-@media only screen and (max-width: 767px) {
-  .app {
-    grid-template-rows: 160px auto 80px;
-  }
-}

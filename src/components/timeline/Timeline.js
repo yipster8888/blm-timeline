@@ -29,7 +29,6 @@ class Timeline extends Component {
   componentDidMount() {
     Api.getPosts()
       .then((res) => {
-        console.log(res);
         this.setState({
           timelineData: res.data || [],
         });
@@ -42,8 +41,6 @@ class Timeline extends Component {
   }
 
   render() {
-    console.log(this.state.targetCity);
-
     if (this.state.loading) {
       return (
         <div className="loader-container">
@@ -52,17 +49,15 @@ class Timeline extends Component {
       );
     }
 
-    if (this.state.timelineData != null && this.state.timelineData.length > 0) {
-      return (
-        <div className="timeline">
-          <div className="timeline-container">
-            {this.state.timelineData.map((data, index) => (
-              <TimelineItem data={data} key={index} />
-            ))}
-          </div>
+    return (
+      <div className="timeline">
+        <div className="timeline-container">
+          {this.state.timelineData.map((data, index) => (
+            <TimelineItem data={data} key={index} />
+          ))}
         </div>
-      );
-    }
+      </div>
+    );
   }
 }
 

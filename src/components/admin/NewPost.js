@@ -9,7 +9,6 @@ const NewPost = () => {
   const onSubmit = (values) => {
     if (loading) return;
     setLoading(true);
-    console.log(values.password);
 
     Api.insertPost(
       {
@@ -49,9 +48,7 @@ const NewPost = () => {
         <input
           name="cityName"
           placeholder="City"
-          ref={register({
-            required: true,
-          })}
+          ref={register}
         />
         <input name="imageURL" placeholder="Image URL" ref={register} />
         <input
