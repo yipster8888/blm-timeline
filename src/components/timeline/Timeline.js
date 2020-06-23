@@ -49,7 +49,11 @@ class Timeline extends Component {
       );
     }
 
-    return <div></div>;
+    return (
+      <div className="vertical-center">
+        <div className="loader"></div>
+      </div>
+    );
   }
 }
 
