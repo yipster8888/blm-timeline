@@ -175,14 +175,15 @@ module.exports = [
   },
   {
     title:
-      "Denver police officer fired for social media post captioned “Let’s start a riot”",
+      "New Jersey announces law enforcement reforms in wake of protests against police brutality",
     text:
-      "A Denver police officer was fired for writing “Let’s start a riot” as a caption to a photo he posted on social media showing himself and two other officers in riot gear. Officer Thomas McClay, who posted the photo on Instagram, was fired Tuesday, according to the Denver Police Department.",
+      "New Jersey Attorney General Gurbir Grewal on Tuesday announced several initiatives designed to increase trust between police and the communities they serve, including an expansion of the state‘s use-of-force database and a proposed licensing program for law enforcement.",
     date: "06/2/2020",
-    cityName: "Denver",
+    cityName: "New Jersey",
     newsURL:
-      "https://www.denverpost.com/2020/06/02/denver-police-officer-fired-lets-start-a-riot-george-floyd-protest/",
-    imageURL: "",
+      "https://www.politico.com/states/new-jersey/story/2020/06/02/new-jersey-announces-law-enforcement-reforms-in-wake-of-protests-against-police-brutality-1290154",
+    imageURL:
+      "https://static.politico.com/dims4/default/0a1106c/2147483647/resize/1160x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F16%2Ffa%2Fdf8581e6448e96213bea80ba6f82%2Fap20153060468151-1.jpg",
   },
   {
     title:
@@ -277,6 +278,18 @@ module.exports = [
   },
   {
     title:
+      "Ben & Jerry's calls for the dismantling of 'culture of white supremacy'",
+    text:
+      "Ben & Jerry's requested that President Donald Trump and elected officials disavow white supremacists; that Congress pass H.R. 40 – legislation that would create a commission to study the effects of slavery and discrimination from 1619 to the present and recommend appropriate remedies; and that the Department of Justice to reinvigorate its Civil Rights Division. The company supports the creation of a national task force aimed at ending racial violence and increasing police accountability.",
+    date: "06/3/2020",
+    cityName: "",
+    newsURL:
+      "https://www.usatoday.com/story/money/2020/06/03/ben-jerrys-calls-for-dismantling-white-supremacy/3137898001/",
+    imageURL:
+      "https://www.gannett-cdn.com/presto/2019/09/20/USAT/89893592-0b8e-4439-aac2-f59043f16b9d-DSC_4823.jpg?crop=3483,1959,x0,y9&width=660&height=372&format=pjpg&auto=webp",
+  },
+  {
+    title:
       "Six Atlanta Police officers are being charged after allegedly using excessive force at protest",
     text:
       "Six Atlanta Police officers are being charged with using excessive force during an arrest of two college students at a protest on Saturday night, Fulton County District Attorney Paul Howard announced Tuesday.",
@@ -334,6 +347,18 @@ module.exports = [
   },
   {
     title:
+      "Lego donates $4million to fight racism amid George Floyd protests as Pokemon pledges support to Black Lives Matter",
+    text:
+      "Lego has donated $4million (£3.1m) in a bid to support black children and fight racial inequality, in the wake of the protests taking place around the world. Protests were sparked across the US after George Floyd died during an arrest, when white police officer Derek Chauvin knelt on his neck for more than eight minutes, despite his insistence that he couldn’t breathe.",
+    date: "06/4/2020",
+    cityName: "",
+    newsURL:
+      "https://metro.co.uk/2020/06/04/lego-donates-4million-fight-racism-amid-george-floyd-protests-pokemon-pledges-support-black-lives-matter-12802654/",
+    imageURL:
+      "https://static3.srcdn.com/wordpress/wp-content/uploads/2017/02/Arrowverse-and-Lego-Batman.jpg?q=50&fit=crop&w=960&h=500",
+  },
+  {
+    title:
       "Thousands of Victorians expected to rally in support of Black Lives Matter",
     text:
       "Victoria's Centennial Square is filled with messages of solidarity, written in chalk, all in support of the Black Lives Matter movement. This weekend, the square is expected to be filled with thousands of people for a peaceful rally against racial injustice. 'Now is the time. Now is the time to step up,'' said activist, Pamphinette Buisa. 'This is the call to action.'",
@@ -343,6 +368,18 @@ module.exports = [
       "https://vancouverisland.ctvnews.ca/thousands-of-victorians-expected-to-rally-in-support-of-black-lives-matter-1.4971581",
     imageURL:
       "https://www.ctvnews.ca/polopoly_fs/1.4971618.1591387408!/httpImage/image.jpg_gen/derivatives/landscape_960/image.jpg",
+  },
+  {
+    title:
+      "Dallas Police Department announces new policies after seven days of protests",
+    text:
+      "Dallas leaders on Friday announced new policies aimed at reforming the Dallas Police Department after seven days of protests around the country over the death of George Floyd, a black man killed when a white Minneapolis officer knelt on his neck for more than eight minutes. The city said it would formally ban chokeholds and any force intended to restrict a person’s airway; implement by June 12 a policy to warn before shooting; and create guidelines to release body cam and dashcam video of critical incidents.",
+    date: "06/5/2020",
+    cityName: "Dallas",
+    newsURL:
+      "https://www.dallasnews.com/news/2020/06/05/dallas-police-department-announces-new-policies-after-seven-days-of-protests/",
+    imageURL:
+      "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/jNI7pkfmOnkUUABbMCagETUTZ3I=/1660x934/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/VNZDNR7I7FD2JOIFNKR4UQ3NCA.jpg",
   },
   {
     title: "The NFL has a message for players who knelt: 'We were wrong'",
@@ -404,6 +441,17 @@ module.exports = [
   },
   {
     title:
+      "Activists Create Public Online Spreadsheet of Police Violence Videos",
+    text:
+      "Lawyer T. Greg Doucette and mathematician Jason Miller have been working to compile the videos in the Google Sheet titled “GeorgeFloyd Protest - police brutality videos on Twitter.” The database currently has 428 videos. Doucette started the effort as a Twitter thread. Miller saw that and realized it was going to be long and unwieldy so he wanted to create a way for people to easily access and sort the videos. For those who aren’t obsessively scrolling through their timelines all day, the spreadsheet can help easily locate videos of police violence in their area because they can be sorted by city and state. The activists have also created a Google Drive with backups of all the videos.",
+    date: "06/6/2020",
+    cityName: "",
+    newsURL:
+      "https://slate.com/news-and-politics/2020/06/george-floyd-public-spreadsheet-police-violence-videos.html",
+    imageURL: "",
+  },
+  {
+    title:
       "Black Lives Matter Members Meet With Philadelphia Officials, Law Enforcement As Powerful Protests Continue In Region",
     text:
       "It was another day of peaceful and powerful protests from people all over the Delaware Valley, from all walks of life, marching and demanding justice. On Sunday afternoon, Black Lives Matter protesters met with elected officials in Philadelphia as well as law enforcement. City leaders called the two-hour meeting a listening session and it happened while protests swept all across the region.",
@@ -413,6 +461,77 @@ module.exports = [
       "https://philadelphia.cbslocal.com/2020/06/07/black-lives-matter-philadelphia-officials-police-meeting-protests/",
     imageURL:
       "https://philadelphia.cbslocal.com/wp-content/uploads/sites/15116066/2020/06/blm-bike-protest.jpg?resize=620,349",
+  },
+  {
+    title:
+      "Minneapolis City Council majority pledges to dismantle the city's police department in the wake of George Floyd's death",
+    text:
+      "Less than two weeks after George Floyd's death, nine members of the Minneapolis City Council announced plans to disband the city's police force. The council president, Lisa Bender, made the announcement at Black Visions Collective and Reclaim the Block rally as part of the Black Lives Matter movement on Sunday.",
+    date: "06/07/2020",
+    cityName: "Minneapolis",
+    newsURL:
+      "https://www.insider.com/minneapolis-city-council-disband-police-department-george-floyd-2020-6",
+    imageURL:
+      "https://i.insider.com/5ed9e8925af6cc32ea10bbd4?width=1300&format=jpeg&auto=webp",
+  },
+  {
+    title:
+      "Denver police ban chokeholds, require officers to report when they point gun at someone",
+    text:
+      "As demonstrators marched for the 11th day, Denver police brass on Sunday announced changes to the department’s use-of-force and body camera policies — including a ban on chokeholds that mirrors what some cities and states have adopted in the wake of George Floyd’s death. The Denver Police Department also will now require officers to alert supervisors any time they point a gun at someone, not just when they fire a weapon. And SWAT officers must turn on their body-worn cameras while executing tactical operations.",
+    date: "06/7/2020",
+    cityName: "Denver",
+    newsURL:
+      "https://www.denverpost.com/2020/06/07/denver-police-ban-chokeholds/",
+    imageURL:
+      "https://www.denverpost.com/wp-content/uploads/2020/05/TDP-L-FLOYD-PROTEST_JAC8607x.jpg?w=691",
+  },
+  {
+    title:
+      "New York plans to move some police funding to youth and social services",
+    text:
+      "New York City will move some of its funding from the New York Police Department to youth and social services, Mayor Bill De Blasio said on Sunday. His announcement comes as discussions grow around the country about defunding police forces, with some activists calling on city officials to invest more of the city's budget in communities, especially marginalized ones where much of the policing occurs.",
+    date: "06/7/2020",
+    cityName: "New York City",
+    newsURL:
+      "https://www.cnn.com/2020/06/07/us/new-york-city-police-funding-social-services/index.html",
+    imageURL:
+      "https://cdn.cnn.com/cnnnext/dam/assets/200605005135-06-police-protests-0604-new-york-exlarge-169.jpg",
+  },
+  {
+    title:
+      "Trump withdraws National Guard from Washington amid George Floyd protests across U.S.",
+    text:
+      "U.S. President Donald Trump says he's given the order for National Guard troops to begin withdrawing from the nation's capital, saying everything is 'under perfect control'. D.C. Mayor Muriel Bowser last week called on Trump to withdraw National Guard troops that some states sent to the city.",
+    date: "06/7/2020",
+    cityName: "Washington",
+    newsURL:
+      "https://www.cbc.ca/news/world/washington-protests-police-george-floyd-1.5602059",
+    imageURL:
+      "https://images.axios.com/vM_58dAjMCj-ooTWKFYLjjxBTqA=/0x0:4974x2798/1920x1080/2020/06/07/1591539416459.jpg",
+  },
+  {
+    title: "NASCAR Embraces Black Lives Matter Movement Before Race",
+    text:
+      "Before the start of this weekend's Folds of Honor QuikTrip 500 race at the Atlanta Motor Speedway, NASCAR President Steve Phelps had drivers shut their cars down, as he read the following message over the public address system, on team radios, and on the television broadcast: 'The black community and all people of color have suffered in our country, and it has taken far too long for us to hear their demands for change. Our sport must do better. Our country must do better. The time is now to listen, to understand and to stand against racism and racial injustice.'",
+    date: "06/07/2020",
+    cityName: "",
+    newsURL:
+      "https://710keel.com/nascar-embraces-black-lives-matter-movement-before-race/",
+    imageURL:
+      "https://townsquare.media/site/180/files/2020/06/GettyImages-1247963873.jpg?w=980&q=75",
+  },
+  {
+    title:
+      "South Korean band BTS donates $1M to Black Lives Matter amid George Floyd protests",
+    text:
+      "Popular South Korean band BTS donated $1 million to Black Lives Matter (BLM) in support of U.S. protests against police brutality, its music label, Big Hit Entertainment, told Reuters on Sunday. On Thursday, the seven-member BTS wrote on its Twitter account that they are against racism and violence with the hashtag BlackLivesMatter. 'We stand against racial discrimination. We condemn violence. You, I and we all have the right to be respected. We will stand together.'",
+    date: "06/7/2020",
+    cityName: "",
+    newsURL:
+      "https://globalnews.ca/news/7036455/bts-black-lives-matter-donation/",
+    imageURL:
+      "https://specials-images.forbesimg.com/imageserve/5ede55828aa94f000665e1f7/960x0.jpg?fit=scale",
   },
   {
     title: "Ex-Generals Come Out Against Trump for Plan to Militarize U.S.",
@@ -450,6 +569,39 @@ module.exports = [
   },
   {
     title:
+      "‘Sesame Street’ delivers transparent message about racism against black people in CNN town hall",
+    text:
+      "The kid-friendly series has been providing educational content since the Civil Rights era. CNN aired a town hall Saturday morning to help explain the cause of the nationwide protests in a simple way that a child can understand. The special was hosted by CNN’s Van Jones and Erica Hill, Coming Together: Standing Up to Racism alongside the show’s beloved characters, Elmo, Big Bird and other Sesame Street favorites to talk and explain what racism is in the United States, and answer any important questions from children watching across the country.",
+    date: "06/8/2020",
+    cityName: "",
+    newsURL: "https://thesource.com/2020/06/08/sesame-street-blm/",
+    imageURL:
+      "https://thesource.com/wp-content/uploads/2020/06/Sesame-Street-Delivers-Transparent-Message-About-Racism-Against-Black-People-in-CNN-Town-Hall-750x400.jpg",
+  },
+  {
+    title: "France to abandon police chokeholds amid George Floyd protests",
+    text:
+      "France’s top security official says police will no longer conduct chokeholds that have been blamed for multiple cases of asphyxiation and have come under renewed criticism after George Floyd’s death in the United States.",
+    date: "06/8/2020",
+    cityName: "Paris",
+    newsURL:
+      "https://nypost.com/2020/06/08/france-to-abandon-police-chokeholds-amid-george-floyd-protests/",
+    imageURL:
+      "https://thenypost.files.wordpress.com/2020/06/france-protests-3.jpg?quality=90&strip=all&w=618&h=410&crop=1",
+  },
+  {
+    title: "Banksy supports Black Lives Matter with U.S. flag artwork",
+    text:
+      "Showing his support for the Black Lives Matter protests sparked by the killing of George Floyd, Banksy, the mysterious, U.K.-based street artist, took to Instagram on Saturday sharing a pertinent new painting. Calling to a “faulty system” in which people of colour are being “failed,” Banksy’s latest art piece depicts a memorial site, where a framed photograph of a black, silhouetted figure sits beside some flowers and candles under the U.S. flag.",
+    date: "06/8/2020",
+    cityName: "",
+    newsURL:
+      "https://globalnews.ca/news/7040705/george-floyd-banksy-black-lives-matter-flag-painting/",
+    imageURL:
+      "https://i.guim.co.uk/img/media/104d9c751963794ca47594e918eb6a6474acdecd/0_193_948_995/master/948.jpg?width=300&quality=85&auto=format&fit=max&s=43c750be6cddd77fa654cf674beba39f",
+  },
+  {
+    title:
       "New York City will name a street 'Black Lives Matter' in each borough",
     text:
       "New York City will name a street at a 'crucial' location in each borough for 'Black Lives Matter,' Mayor Bill de Blasio said Tuesday. 'What will be clear — the street name and on the streets of our city — is that message that now this city must fully, fully deeply feel and this nation must as well, that Black Lives Matter,' de Blasio said.",
@@ -458,6 +610,71 @@ module.exports = [
     newsURL: "New York City",
     imageURL:
       "https://www.changethenypd.org/sites/default/files/images/black_lives_matter_nyc.jpg",
+  },
+  {
+    title:
+      "New York police misconduct records to become public again after state law repealed",
+    text:
+      "New York state lawmakers repealed a decades-old law Tuesday that has kept law enforcement officers’ disciplinary records secret, spurred by the national uproar over the death of George Floyd. Many of those bills were first proposed years ago, but got new momentum after huge protests nationwide condemned police brutality.",
+    date: "06/9/2020",
+    cityName: "New York City",
+    newsURL:
+      "https://globalnews.ca/news/7047651/new-york-police-records/https://globalnews.ca/news/7047651/new-york-police-records/",
+    imageURL:
+      "https://shawglobalnews.files.wordpress.com/2020/06/nyff105-65_2020_024405.jpg?quality=85&strip=all&w=720&h=379&crop=1",
+  },
+  {
+    title: "US Democrats introduce sweeping legislation to reform police",
+    text:
+      "US Democrats in Congress have proposed sweeping legislation to reform American police, following weeks of protests against police brutality and racism. The bill would make it easier to prosecute police for misconduct, ban chokeholds, and addresses racism.",
+    date: "06/9/2020",
+    cityName: "Washington",
+    newsURL: "https://www.bbc.com/news/world-us-canada-52969375",
+    imageURL:
+      "https://i.insider.com/5ee0baf5aee6a82adc4d6018?width=700&format=jpeg&auto=webp",
+  },
+  {
+    title: "Statue of slave trader removed in London amid anti-racism protests",
+    text:
+      "London's mayor announced Tuesday that more statues of imperialist figures could be removed from Britain's streets after protesters knocked down the monument to a slave trader, as the killing of George Floyd in Minneapolis continued to spark protests — and drive change — around the world. On the day Floyd was buried in his hometown of Houston, London Mayor Sadiq Khan said he was setting up a commission to ensure the British capital's monuments reflected its diversity.",
+    date: "06/9/2020",
+    cityName: "London",
+    newsURL: "https://www.cbc.ca/news/world/london-mayor-statues-1.5604233",
+    imageURL:
+      "https://i.cbc.ca/1.5605395.1591740444!/cpImage/httpImage/image.jpg_gen/derivatives/original_1180/aptopix-america-protests-global-britain.jpg",
+  },
+  {
+    title: "IBM abandons 'biased' facial recognition tech",
+    text:
+      "Tech giant IBM is to stop offering facial recognition software for 'mass surveillance or racial profiling'. The announcement comes as the US faces calls for police reform following the killing of a black man, George Floyd. In a letter to the US Congress, IBM said AI systems used in law enforcement needed testing 'for bias'.",
+    date: "06/9/2020",
+    cityName: "",
+    newsURL: "https://www.bbc.com/news/technology-52978191",
+    imageURL:
+      "https://ichef.bbci.co.uk/news/660/cpsprodpb/02D1/production/_112812700_facialrecognition2.jpg",
+  },
+  {
+    title:
+      "250 Microsoft Employees Call on CEO to Cancel Police Contracts and Support Defunding Seattle PD",
+    text:
+      "Hundreds of Microsoft employees have signed a letter to the company’s top executives asking for Microsoft to take action in the wake of national protests. The letter, which was obtained by OneZero, requests that Microsoft cancel contracts with the Seattle Police Department (SPD) and other law enforcement agencies, asks the company to formally support the Black Lives Matter (BLM) movement, and calls for the resignation of the Seattle mayor.",
+    date: "06/9/2020",
+    cityName: "Seattle",
+    newsURL:
+      "https://onezero.medium.com/250-microsoft-employees-call-on-ceo-to-cancel-police-contracts-and-support-defunding-seattle-pd-e89fa5d9e843",
+    imageURL: "https://miro.medium.com/max/1400/1*8GuQipUabk8yCsSFzsjxJQ.jpeg",
+  },
+  {
+    title:
+      "US Soccer overturns ‘no kneeling’ ban and apologises for detracting from Black Lives Matter movement",
+    text:
+      "The US Soccer Federation has repealed its requirement that all players stand during the national anthem and have issued an apology for instilling a ban that detracted from the Black Lives Matter movement. 'Sports are a powerful platform for good, and we have not used our platform as effectively as we should have. We can do more on these specific issues and we will.'",
+    date: "6/11/2020",
+    cityName: "",
+    newsURL:
+      "https://www.standard.co.uk/sport/football/us-soccer-lifts-kneeling-ban-national-anthem-a4465676.html",
+    imageURL:
+      "https://static.standard.co.uk/s3fs-public/thumbnails/image/2020/06/09/05/rapinoe0906.jpg?w968",
   },
   {
     title: "San Francisco mayor unveils plan for police reform",
@@ -518,6 +735,29 @@ module.exports = [
       "https://shawglobalnews.files.wordpress.com/2020/06/6-yr-old-protester.jpg?quality=85&strip=all&w=720&h=379&crop=1",
   },
   {
+    title: "New York Criminalizes Use Of Chokeholds By Police",
+    text:
+      "New York Gov. Andrew Cuomo has signed what he says are the most aggressive police accountability measures in the nation, including criminalizing the use of chokeholds, following weeks of protests over the death of George Floyd at the hands of the Minneapolis police. The changes include requiring police forces across the state to 'develop a plan that reinvents and modernizes police strategies and programs' by April 1, 2021, including bias awareness and use of force. Local departments must engage the public in their plans and receive the approval of local officials to be eligible for state funding.",
+    date: "06/12/2020",
+    cityName: "New York City",
+    newsURL:
+      "https://www.npr.org/sections/live-updates-protests-for-racial-justice/2020/06/12/876290629/new-york-criminalizes-use-of-chokeholds-by-police",
+    imageURL:
+      "https://media.npr.org/assets/img/2020/06/12/ap_20164670490035_wide-15a5b13b32875329183f03aad5a350f0a087b3f3-s800-c85.jpg",
+  },
+  {
+    title:
+      "Apple's Siri hits back with information about Black Lives Matter when users say 'All Lives Matter,' joining Amazon and Google which have also updated their smart assistance to support the movement",
+    text:
+      "Apple's Siri is supporting the Black Lives Matter movement by providing users who say 'All Lives Matter' with a link to learn more about human rights initiative. When speaking the phrase to Siri, it will respond, 'All Lives Matter' is often used in response to phrase 'Black Lives Matter,' but it does not represent the same concerns,' and then the technology prompts users to visit BlackLivesMatter.com.",
+    date: "06/12/2020",
+    cityName: "",
+    newsURL:
+      "https://www.dailymail.co.uk/sciencetech/article-8415035/Apples-Siri-hits-information-Black-Lives-Matter-users-say-Lives-Matter.html",
+    imageURL:
+      "https://i.dailymail.co.uk/1s/2020/06/12/16/29536262-8415035-image-a-24_1591977380588.jpg",
+  },
+  {
     title:
       "Several protests in support of Black Lives Matter movement taking place in GTA",
     text:
@@ -539,6 +779,17 @@ module.exports = [
       "https://denver.cbslocal.com/2020/06/13/denver-cyclists-black-lives-matter/",
     imageURL:
       "https://denver.cbslocal.com/wp-content/uploads/sites/15909806/2020/06/BLM-BIKE-RIDE-VO.transfer_frame_0.jpeg?resize=620,349",
+  },
+  {
+    title:
+      "Saskatoon Black Lives Matter march joins call to end racism, police violence",
+    text:
+      "One thousand people marched through downtown Saskatoon on Saturday in solidarity with the Black Lives Matter movement. The demonstration began at noon in Kiwanis Park with speeches by organizers, guest speakers and the singing of 'Lift Every Voice and Sing.''",
+    date: "06/13/2020",
+    cityName: "Saskatoon",
+    newsURL: "https://globalnews.ca/news/7064031/saskatoon-black-lives-matter/",
+    imageURL:
+      "https://shawglobalnews.files.wordpress.com/2020/06/blm-yxe-june-13-3.jpg?quality=85&strip=all&w=1200",
   },
   {
     title:
@@ -589,11 +840,23 @@ module.exports = [
   },
   {
     title:
+      "'We need to change society': Black Lives Matter protesters march through Tokyo",
+    text:
+      "Thousands of protesters in Tokyo took part in a Black Lives Matter march on Sunday, calling for an end to racial discrimination and police abuse after the killing of African American George Floyd in Minneapolis last month. Organizers said about 3,500 people took part in the protest. Police did not disclose an estimate.",
+    date: "06/14/2020",
+    cityName: "Tokyo",
+    newsURL:
+      "https://nationalpost.com/news/world/we-need-to-change-society-black-lives-matter-protesters-march-through-tokyo",
+    imageURL:
+      "https://nationalpostcom.files.wordpress.com/2020/06/tokyo.jpg?quality=100&strip=all&w=564",
+  },
+  {
+    title:
       "Beyonce Demands Justice for Breonna Taylor in Letter to Kentucky Attorney General",
     text:
       "Beyonce wrote a letter to the Kentucky Attorney General demanding justice for Breonna Taylor and charges brought against the three police officers involved in her death. “Don’t let this case fall into the pattern of no action after a terrible tragedy,” she wrote. “With every death of a Black person at the hands of the police, there are two real tragedies: the death itself, and the inaction and delays that follow it. This is your chance to end that pattern. Take swift and decisive action in charging the officers. The next months cannot look like the last three.”",
     date: "06/15/2020",
-    cityName: "Los Angeles",
+    cityName: "",
     newsURL:
       "https://nationalpost.com/pmn/entertainment-pmn/beyonce-demands-justice-for-breonna-taylor-in-letter-to-kentucky-attorney-general",
     imageURL:
