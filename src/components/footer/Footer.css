@@ -17,6 +17,12 @@
   margin-bottom: 5px;
 }
 
+.footer-links {
+  margin: auto;
+  text-align: center;
+  width: fit-content;
+}
+
 .footer-link {
   margin: 0;
   text-align: center;
@@ -24,6 +30,10 @@
   font-size: 12px;
   line-height: 12px;
   text-decoration: none;
+}
+
+.footer-link:not(:first-child) {
+  margin-left: 5px;
 }
 
 .footer-link:hover {
